@@ -15,7 +15,7 @@ const MailboxFile = (props) => {
 
     return (
         <>
-            <h1>{chosenMail.boxHolder} { }</h1>
+            <h1>{chosenMail.boxHolder}</h1>
             <dl>
                 <dt>Box Size</dt>
                 <dd>{chosenMail.boxSize}</dd>

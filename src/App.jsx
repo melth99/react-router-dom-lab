@@ -27,8 +27,8 @@ setMailList([...mailList, newMail])
     <Route path='/' element={<h1>Home!</h1>}   />
     <Route path='/mail' element={<MailboxList mailList={mailList}/>}/>
     <Route path='/mail/new' element={<MailForm addMail={addMail}/>}/>
-    <Route path = '/mail/:mail_.id'element={<MailboxFile mailList={mailList}/>}/>
-
+    <Route path="/mail/:mailId" element={<MailboxFile mailList={mailList} />} />
+    <Route path="*" element={<h2>Whoops Nothing here</h2>}/>
     </Routes>
   </>
   )
